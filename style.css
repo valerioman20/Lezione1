@@ -1,0 +1,48 @@
+.logosimply {
+    width: 150px;
+
+}
+
+.logo {
+    text-align: center;
+
+}
+
+.write {
+    text-align: center;
+    color: #095757;
+    font-size: xx-small;
+
+
+}
+
+#topwrite {
+    margin: 16px;
+    background-color: rgba(245, 228, 144, 0.264);
+    height: 50px;
+    border-top: 1px solid rgb(252, 210, 84)
+}
+
+
+.title { 
+    text-align: center;
+   
+}
+
+#main1 { 
+    text-align: center;
+   
+}
+
+
+.centrale { 
+ width: 600px;
+ border-radius: 10px 10px 10px 10px;
+ box-shadow: #095757;
+}
+
+.description-image { 
+    color: rgb(179, 173, 173);
+    margin: 3px;
+   }
+   
