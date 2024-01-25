@@ -1,48 +1,161 @@
-.logosimply {
-    width: 150px;
-
-}
-
-.logo {
+body {
     text-align: center;
+    font-family: 'Merriweather', serif;
+    margin: 0;
 
 }
+
+header img {
+    width: 200px;
+    margin: 20px 0;
+}
+
 
 .write {
-    text-align: center;
-    color: #095757;
-    font-size: xx-small;
 
-
+    background-color: #fefbf1;
+    border-top: 1px solid #ffd977;
+    padding: 15px 0;
+    color: #004d4d;
+    font-size: 0.8rem;
+    margin-bottom: 4rem;
 }
+
+nav span span {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+
+
+
 
 #topwrite {
     margin: 16px;
-    background-color: rgba(245, 228, 144, 0.264);
+    background-color: rgba(245, 228, 144, 0.096);
     height: 50px;
     border-top: 1px solid rgb(252, 210, 84)
 }
 
 
-.title { 
+.title {
+
     text-align: center;
-   
+    width: 500px;
+    display: inline-block;
+    color: rgb(32, 31, 31);
+
 }
 
-#main1 { 
+#main1 {
+
     text-align: center;
-   
+
 }
 
 
-.centrale { 
- width: 600px;
- border-radius: 10px 10px 10px 10px;
- box-shadow: #095757;
+.centrale {
+    width: 600px;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 5px 5px 5px #dedede;
+
 }
 
-.description-image { 
+.description-image {
     color: rgb(179, 173, 173);
     margin: 3px;
-   }
    
+}
+
+.p-image {
+    width: 600px;
+    padding-left: 324px;
+}
+
+
+.featured {
+    display: flex; 
+    margin: 16px;
+    height: 40px;
+    margin-left: 320px;
+    border-left: 1px solid rgb(252, 210, 84)
+    
+}
+
+.featured span {
+    color: rgb(251, 78, 35);
+    margin-left: 6px
+    
+    
+}
+
+
+
+
+.second-featured {
+    padding-right: 750px;
+
+
+}
+
+#ingredients {
+    text-align: left;
+    padding-left: 330px;
+    margin-top: 50px;
+
+}
+
+#list1 {
+    width: 600px;
+    height: 600px;
+    margin-right: auto;
+    margin-left: auto;
+    border-top: 1px solid rgb(68, 231, 252)
+}
+
+.focaccia {
+    display: flex;
+    font-size: larger;
+    margin-bottom: 0;
+
+
+}
+
+.list-ingr {
+    text-align: left;
+    line-height: 2em;
+
+
+}
+
+.topping {
+    display: flex;
+    font-size: larger;
+    margin-bottom: 0;
+
+
+}
+
+.list-topping {
+    text-align: left;
+    line-height: 2em;
+
+
+}
+
+#method {
+    text-align: left;
+}
+
+
+#list2 {
+    width: 600px;
+
+    margin-right: auto;
+    margin-left: auto;
+    border-top: 1px solid rgb(68, 231, 252)
+}
+
+.orderlist {
+    padding-left: 1em;
+}
